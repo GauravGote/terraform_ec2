@@ -14,8 +14,8 @@ provider "aws" {
   region     = "us-east-1"
 
 }
-resource "aws_instance" "web" {
-  ami           = "ami-0e2c8caa4b6378d8c"
+resource "aws_instance" "myFirstInstance" {
+  ami           = "ami-0ee23bfc74a881de5"
   instance_type = "t2.micro"
 
   tags = {
